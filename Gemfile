@@ -25,7 +25,6 @@ gem 'annotate'
 gem 'msgpack'
 gem 'logstasher'
 gem 'wisper', '2.0.0'
-gem "paranoia", "~> 2.2"
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'subroutine', '~> 0.5.2'
 gem 'paper_trail'
@@ -47,6 +46,9 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'awesome_print'
+  gem 'rspec-rails', '~> 3.8'
+  gem 'factory_bot_rails'
+  gem 'faker'
 end
 
 group :development do
